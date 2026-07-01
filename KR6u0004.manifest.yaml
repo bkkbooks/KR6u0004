@@ -1,0 +1,54 @@
+canonical_identifier: bkk:krp/KR6u0004/v1
+canonical_location: https://kanripo.org/bkk/KR6u0004/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 決罪福經
+  identifiers:
+    alt_id:
+    - T85n2868
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T85/T85n2868.xml
+    old_id: T85n2868
+  edition:
+    short: bkk
+editions:
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6u0004_000.yaml, hash: 'sha256:90a8df9609a1926a249291428e6fa4b81032227964492f0ce20819b0474e225d'}
+  - {seq: 1, filename: KR6u0004_001.yaml, hash: 'sha256:762532387e2c78a9845172f853e18bebda8fffc1a3bcc5900314b44b561d15ed'}
+  - {seq: 2, filename: KR6u0004_002.yaml, hash: 'sha256:89db28895609b6c9446380c948dfb364afd643da70ac3ca6c3e528c162e996df'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6u0004_001.markers.yaml, hash: 'sha256:70a40003a9f79d33c4bff5b4efc91f52fd08d6f026584b423a40d96c4bf4d73f'}
+  - {seq: 2, role: markers, filename: assets/KR6u0004_002.markers.yaml, hash: 'sha256:f576846cee6c98b056ba0fe9eda703b3bb3b3e8d123d6c4c61b5e3b98fb490e5'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6u0004_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 1761
+  label: 佛說決罪福經卷上
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6u0004_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 5876
+  label: 佛說決罪福經卷下
+  type: juan
+  level: 1
+hash: sha256:6db718b5788bd3451dcf86e623a6e03da4b0985cc9043161a6f3b91cbd38280f
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
